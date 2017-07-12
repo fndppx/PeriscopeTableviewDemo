@@ -12,22 +12,21 @@
 		3A2DF7AC1BB2FD060096FD24 /* PeriscopLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2DF7AA1BB2FD060096FD24 /* PeriscopLiveViewController.m */; };
 		3A2DF7AD1BB2FD060096FD24 /* PeriscopLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF7AB1BB2FD060096FD24 /* PeriscopLiveViewController.xib */; };
 		3A2DF7B41BB2FE0B0096FD24 /* MyHeadTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2DF7B31BB2FE0B0096FD24 /* MyHeadTableView.m */; };
-		3A3C57AB1BB8D9F3000A70FA /* LiveVODChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3C57A91BB8D9F3000A70FA /* LiveVODChatViewController.m */; settings = {ASSET_TAGS = (); }; };
-		3A3C57AC1BB8D9F3000A70FA /* LiveVODChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3C57AA1BB8D9F3000A70FA /* LiveVODChatViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		3A3C57B21BB8DD3A000A70FA /* CommonCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3C57B11BB8DD3A000A70FA /* CommonCommentView.m */; settings = {ASSET_TAGS = (); }; };
+		3A3C57B21BB8DD3A000A70FA /* CommonCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3C57B11BB8DD3A000A70FA /* CommonCommentView.m */; };
 		3A630D3E1BABF2060079259D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A630D3D1BABF2060079259D /* main.m */; };
 		3A630D411BABF2060079259D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A630D401BABF2060079259D /* AppDelegate.m */; };
 		3A630D441BABF2060079259D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A630D431BABF2060079259D /* ViewController.m */; };
-		3A630D471BABF2060079259D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A630D451BABF2060079259D /* Main.storyboard */; };
 		3A630D491BABF2060079259D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A630D481BABF2060079259D /* Images.xcassets */; };
 		3A630D4C1BABF2060079259D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A630D4A1BABF2060079259D /* LaunchScreen.xib */; };
 		3A630D581BABF2060079259D /* __testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A630D571BABF2060079259D /* __testTests.m */; };
 		3A6EA7A81BAF90480090E2D6 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6EA7A61BAF90480090E2D6 /* MyTableViewCell.m */; };
 		3A6EA7A91BAF90480090E2D6 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A6EA7A71BAF90480090E2D6 /* MyTableViewCell.xib */; };
 		3A840DDB1BAFF29000E43D0B /* UIView+CustomPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A840DDA1BAFF29000E43D0B /* UIView+CustomPopView.m */; };
-		3AC283071BB7A34E00628F0F /* BiteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC283061BB7A34E00628F0F /* BiteScrollView.m */; settings = {ASSET_TAGS = (); }; };
+		3AC283071BB7A34E00628F0F /* BiteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC283061BB7A34E00628F0F /* BiteScrollView.m */; };
 		3AF0611A1BB4E1DF001C2C25 /* LiveVideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF061181BB4E1DF001C2C25 /* LiveVideoTableViewCell.m */; };
 		3AF0611B1BB4E1DF001C2C25 /* LiveVideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AF061191BB4E1DF001C2C25 /* LiveVideoTableViewCell.xib */; };
+		570A9C2D1F1608D700FA6AA5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A9C2B1F1608D700FA6AA5 /* RootViewController.m */; };
+		570A9C2E1F1608D700FA6AA5 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 570A9C2C1F1608D700FA6AA5 /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +49,6 @@
 		3A2DF7AB1BB2FD060096FD24 /* PeriscopLiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeriscopLiveViewController.xib; sourceTree = "<group>"; };
 		3A2DF7B21BB2FE0B0096FD24 /* MyHeadTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHeadTableView.h; sourceTree = "<group>"; };
 		3A2DF7B31BB2FE0B0096FD24 /* MyHeadTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHeadTableView.m; sourceTree = "<group>"; };
-		3A3C57A81BB8D9F3000A70FA /* LiveVODChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveVODChatViewController.h; sourceTree = "<group>"; };
-		3A3C57A91BB8D9F3000A70FA /* LiveVODChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveVODChatViewController.m; sourceTree = "<group>"; };
-		3A3C57AA1BB8D9F3000A70FA /* LiveVODChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveVODChatViewController.xib; sourceTree = "<group>"; };
 		3A3C57B01BB8DD3A000A70FA /* CommonCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCommentView.h; sourceTree = "<group>"; };
 		3A3C57B11BB8DD3A000A70FA /* CommonCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCommentView.m; sourceTree = "<group>"; };
 		3A630D381BABF2060079259D /* PeriscopeScrollview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriscopeScrollview.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +58,6 @@
 		3A630D401BABF2060079259D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3A630D421BABF2060079259D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3A630D431BABF2060079259D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3A630D461BABF2060079259D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A630D481BABF2060079259D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3A630D4B1BABF2060079259D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3A630D511BABF2060079259D /* PeriscopeScrollview.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriscopeScrollview.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +73,9 @@
 		3AF061171BB4E1DF001C2C25 /* LiveVideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveVideoTableViewCell.h; sourceTree = "<group>"; };
 		3AF061181BB4E1DF001C2C25 /* LiveVideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveVideoTableViewCell.m; sourceTree = "<group>"; };
 		3AF061191BB4E1DF001C2C25 /* LiveVideoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveVideoTableViewCell.xib; sourceTree = "<group>"; };
+		570A9C2A1F1608D700FA6AA5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		570A9C2B1F1608D700FA6AA5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		570A9C2C1F1608D700FA6AA5 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,15 +135,14 @@
 		3A630D3A1BABF2060079259D /* PeriscopeScrollview */ = {
 			isa = PBXGroup;
 			children = (
-				3A3C57A81BB8D9F3000A70FA /* LiveVODChatViewController.h */,
-				3A3C57A91BB8D9F3000A70FA /* LiveVODChatViewController.m */,
-				3A3C57AA1BB8D9F3000A70FA /* LiveVODChatViewController.xib */,
-				3AF0611C1BB4E373001C2C25 /* MyLiveView */,
 				3A2DF7AE1BB2FD770096FD24 /* CommonView */,
 				3A630D3F1BABF2060079259D /* AppDelegate.h */,
 				3A630D401BABF2060079259D /* AppDelegate.m */,
 				3A630D421BABF2060079259D /* ViewController.h */,
 				3A630D431BABF2060079259D /* ViewController.m */,
+				570A9C2A1F1608D700FA6AA5 /* RootViewController.h */,
+				570A9C2B1F1608D700FA6AA5 /* RootViewController.m */,
+				570A9C2C1F1608D700FA6AA5 /* RootViewController.xib */,
 				3A2DF7A91BB2FD060096FD24 /* PeriscopLiveViewController.h */,
 				3A2DF7AA1BB2FD060096FD24 /* PeriscopLiveViewController.m */,
 				3A2DF7AB1BB2FD060096FD24 /* PeriscopLiveViewController.xib */,
@@ -156,7 +153,6 @@
 				3A6EA7A51BAF90480090E2D6 /* MyTableViewCell.h */,
 				3A6EA7A61BAF90480090E2D6 /* MyTableViewCell.m */,
 				3A6EA7A71BAF90480090E2D6 /* MyTableViewCell.xib */,
-				3A630D451BABF2060079259D /* Main.storyboard */,
 				3A630D481BABF2060079259D /* Images.xcassets */,
 				3A630D4A1BABF2060079259D /* LaunchScreen.xib */,
 				3A630D3B1BABF2060079259D /* Supporting Files */,
@@ -189,13 +185,6 @@
 				3A630D561BABF2060079259D /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3AF0611C1BB4E373001C2C25 /* MyLiveView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MyLiveView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,8 +270,7 @@
 			files = (
 				3A6EA7A91BAF90480090E2D6 /* MyTableViewCell.xib in Resources */,
 				3A2DF7AD1BB2FD060096FD24 /* PeriscopLiveViewController.xib in Resources */,
-				3A3C57AC1BB8D9F3000A70FA /* LiveVODChatViewController.xib in Resources */,
-				3A630D471BABF2060079259D /* Main.storyboard in Resources */,
+				570A9C2E1F1608D700FA6AA5 /* RootViewController.xib in Resources */,
 				3A630D4C1BABF2060079259D /* LaunchScreen.xib in Resources */,
 				3AF0611B1BB4E1DF001C2C25 /* LiveVideoTableViewCell.xib in Resources */,
 				3A630D491BABF2060079259D /* Images.xcassets in Resources */,
@@ -305,7 +293,6 @@
 			files = (
 				3A840DDB1BAFF29000E43D0B /* UIView+CustomPopView.m in Sources */,
 				3A6EA7A81BAF90480090E2D6 /* MyTableViewCell.m in Sources */,
-				3A3C57AB1BB8D9F3000A70FA /* LiveVODChatViewController.m in Sources */,
 				3AC283071BB7A34E00628F0F /* BiteScrollView.m in Sources */,
 				3A630D441BABF2060079259D /* ViewController.m in Sources */,
 				3A070F9F1BAC1D8A002DF3A4 /* ViewFrameAccessor.m in Sources */,
@@ -314,6 +301,7 @@
 				3AF0611A1BB4E1DF001C2C25 /* LiveVideoTableViewCell.m in Sources */,
 				3A2DF7AC1BB2FD060096FD24 /* PeriscopLiveViewController.m in Sources */,
 				3A3C57B21BB8DD3A000A70FA /* CommonCommentView.m in Sources */,
+				570A9C2D1F1608D700FA6AA5 /* RootViewController.m in Sources */,
 				3A1460621BB3976400285BC5 /* MyCommonScrollview.m in Sources */,
 				3A630D3E1BABF2060079259D /* main.m in Sources */,
 			);
@@ -338,14 +326,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3A630D451BABF2060079259D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A630D461BABF2060079259D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3A630D4A1BABF2060079259D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

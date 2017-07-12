@@ -7,10 +7,7 @@
 //
 
 #import "ViewController.h"
-
 #import "UIView+CustomPopView.h"
-
-
 #import "MoveScrollViewController.h"
 #import "PeriscopLiveViewController.h"
 @interface ViewController ()
@@ -23,18 +20,10 @@
     [super viewDidLoad];
     
     self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.view.backgroundColor = [UIColor whiteColor];
     
 }
 - (IBAction)sendAction:(id)sender {
-//    DemoListViewController * tableView = [[DemoListViewController alloc]initWithNibName:@"DemoListViewController" bundle:nil];
-//    self.middleSendView = tableView;
-//    self.middleSendView.view.frame = self.view.bounds;
-//    [self.view showPopUpView:self.middleSendView.view Frame:[[UIScreen mainScreen] bounds]];
-
-  //    MoveScrollViewController * moveScrollView = [[MoveScrollViewController alloc]initWithNibName:@"MoveScrollViewController" bundle:nil];
-//    UINavigationController * nav  = [[UINavigationController alloc]initWithRootViewController:moveScrollView];
-//    self.view.window.rootViewController = nav;
-    
     
 }
 - (IBAction)popAction:(id)sender {

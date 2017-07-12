@@ -7,7 +7,6 @@
 //
 
 #import "PeriscopLiveViewController.h"
-#import "LiveVODChatViewController.h"
 #import "MyCommonScrollview.h"
 #import "MyHeadTableView.h"
 #import "ViewFrameAccessor.h"
@@ -39,20 +38,13 @@
 @property (nonatomic,strong) MyHeadTableView *headerView;//tableview上边的view
 
 @property (nonatomic,strong) UIActivityIndicatorView * playButtonActivity;
-
-
 @property (nonatomic,strong)UIButton * playVideoButton;
 @property (nonatomic,strong)UIButton * bigPlayVideoButton;
 @property (nonatomic,strong)UIView * playVideoButtonView;
 @property (nonatomic,strong)UIButton * closeButton;
 @property (nonatomic,strong)UILabel * topReminderLabel;//提示关闭的label
 @property (nonatomic,strong)UIView * rightContentView;
-
 @property (nonatomic,assign)CGRect startViewFrame;//初始frame
-
-
-
-@property (nonatomic,strong)LiveVODChatViewController * liveVODChatViewController;
 @end
 
 @implementation PeriscopLiveViewController
@@ -167,13 +159,10 @@
     UIPanGestureRecognizer *rightpanView = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePan:)];
     rightpanView.delegate = self;
     [_rightContentView addGestureRecognizer:rightpanView];
- 
-    _liveVODChatViewController = [[LiveVODChatViewController alloc]initWithNibName:@"LiveVODChatViewController" bundle:nil withStartFrame:_rightContentView.frame];
-    _liveVODChatViewController.view.backgroundColor = [UIColor redColor];
-    [_rightContentView addSubview:_liveVODChatViewController.view];
-//    UIPanGestureRecognizer *rightpanView = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePan:)];
-//    rightpanView.delegate = self;
-//    [_liveVODChatViewController.view addGestureRecognizer:rightpanView];
+    
+    //    UIPanGestureRecognizer *rightpanView = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePan:)];
+    //    rightpanView.delegate = self;
+    //    [_liveVODChatViewController.view addGestureRecognizer:rightpanView];
     
     
     
