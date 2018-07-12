@@ -2,4 +2,5 @@
 一个Periscope的滚动视图
 
 
-https://github.com/weikeyan/iOS11AppStoreTransition/blob/master/images/1234.gif
+
+![image](https://github.com/weikeyan/PeriscopeTableviewDemo/blob/master/Images/12314.gif?raw=true)
