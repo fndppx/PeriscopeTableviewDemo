@@ -9,8 +9,11 @@
 //
 
 #import "RootViewController.h"
-
+#import "UIView+CustomPopView.h"
+#import "MoveScrollViewController.h"
+#import "PeriscopLiveViewController.h"
 @interface RootViewController ()
+@property (nonatomic,strong)PeriscopLiveViewController * periscopLiveViewController;
 
 @end
 
@@ -24,6 +27,14 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)popAction:(id)sender {
+    PeriscopLiveViewController * tableView = [[PeriscopLiveViewController alloc]initWithNibName:@"PeriscopLiveViewController" bundle:nil withStartFrame:self.view.frame];
+    self.periscopLiveViewController = tableView;
+    //    self.periscopLiveViewController.view.frame = [UIScreen mainScreen].applicationFrame;
+    [self.view showPopUpView:self.periscopLiveViewController.view Frame:self.view.frame];
+    
+
 }
 
 /*
